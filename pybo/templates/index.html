@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="card">
+        <div class="card-header">
+            <h4> 컴퓨터비전기초 2024-2 </h4>
+        </div>
+        <div class="card-body">
+             <form id="upload-file" action="/img_result" method="POST" enctype="multipart/form-data">
+                <h5 class="card-title">Upload Image</h5>
+                <p class="card-text"><input type="file" id="file" name="file"></p>
+                <p>
+                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">이미지 처리 선택</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" name="style">
+                        <option selected>Choose...</option>
+                        <option value="Embossing">Embossing</option>
+                        <option value="Stylization">Stylization</option>
+                        <option value="PencilGray">Pencil Sketch</option>
+                        <option value="PencilColor">Pencil Color Sketch</option>
+                        <option value="OilPainting">Oil Painting</option>
+                        <option value="EdgePreserving">Edge Preserving</option>
+                        <option value="FaceDetection">얼굴 검출</option>
+                        <option value="Yolo">객체 인식(yolo)</option>
+                        <option value="Segmentation">객체 분할</option>
+                    </select>
+                </p>
+                <input type="submit" class="btn btn-primary " name="submit" value="Processing">
+            </form>
+        </div>
+    </div>
+{% endblock %}
