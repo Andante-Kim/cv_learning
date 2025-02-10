@@ -1,0 +1,4 @@
+.venv/Lib/site-packages/jaxlib/xla_extension.pyd filter=lfs diff=lfs merge=lfs -text
+.venv/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd filter=lfs diff=lfs merge=lfs -text
+ch8/yolov3.weights filter=lfs diff=lfs merge=lfs -text
+pybo/data/yolov3.weights filter=lfs diff=lfs merge=lfs -text
