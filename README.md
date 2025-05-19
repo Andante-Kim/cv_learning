@@ -1,7 +1,7 @@
-# 🚀 Computer Vision Learning Repository  
+# Computer Vision Learning Repository  
 
 This repository is created for **learning and experimenting** with Computer Vision.  
-It includes various hands-on codes for 📷 image processing, 🎥 video analysis, and 🧠 deep learning.  
+It includes various hands-on codes for image processing, video analysis, and deep learning.  
 
 ## 📂 Directory Structure & Description  
 
@@ -30,5 +30,5 @@ It includes various hands-on codes for 📷 image processing, 🎥 video analysi
 
 ## 🛠 Technologies Used  
 
-- **📝 Programming Language**: Python  
-- **📦 Libraries**: OpenCV, NumPy, Matplotlib, TensorFlow, PyTorch, etc.
+- ** Programming Language**: Python  
+- ** Libraries**: OpenCV, NumPy, Matplotlib, TensorFlow, PyTorch, etc.
