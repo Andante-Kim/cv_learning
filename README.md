@@ -30,5 +30,5 @@ It includes various hands-on codes for image processing, video analysis, and dee
 
 ## 🛠 Technologies Used  
 
-- ** Programming Language**: Python  
-- ** Libraries**: OpenCV, NumPy, Matplotlib, TensorFlow, PyTorch, etc.
+- **Programming Language**: Python  
+- **Libraries**: OpenCV, NumPy, Matplotlib, TensorFlow, PyTorch, etc.
